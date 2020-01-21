@@ -1,0 +1,34 @@
+class Box1
+{
+	int length;
+	int width;
+	int height;
+	Box1()
+	{
+		int length=0;
+		int width=1;
+		int height=0;
+	}
+	Box1(int l,int w,int h)
+	{
+		length=l;
+		width=w;
+		height=h;
+	}
+	void setBox(int l,int w,int h)
+	{
+		length=l;
+		width=w;
+		height=h;
+	}
+	void getBox()
+	{
+		System.out.println("length= " +length +"\nwidth= " + width + "\nheight= "+height);
+	}
+	int calculateVol()
+	{
+		int Vol;
+		Vol=length*width*height;
+		System.out.println("vol= " + Vol);
+	}
+}

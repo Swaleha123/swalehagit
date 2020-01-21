@@ -1,0 +1,22 @@
+class Stud
+{
+int sid;
+String sname,sbranch;
+public void setStu(int i,String n,String b)
+{
+sid=i;
+sname=n;
+sbranch=b;
+}
+public void getStu()
+{
+System.out.println("sid="+sid+"sname"+sname+"sbranch"+sbranch);
+}
+public static void main(String args[])
+{
+Stu s1=new Stu();
+s1.id=101;
+s1.name="abc";
+s1.branch="cse";
+}
+} 
